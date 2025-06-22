@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Let's Chat</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <section class="contact-section">
+    <div class="contact-info">
+        <div class="header-decoration">
+            <div class="glow-dot"></div>
+            <div class="window-dots">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+        <h2>Let's Contact.</h2>
+        <p class="subtitle">Have a question, a project idea, or just want to say hi? Fill out the form and we'll be in touch soon.</p>
+    </div>
+    <form id="contactForm" class="contact-form">
+        <div class="form-group">
+            <input type="text" id="name" placeholder=" " required />
+            <label for="name">Your Name</label>
+        </div>
+        <div class="form-group">
+            <input type="email" id="email" placeholder=" " required />
+            <label for="email">Your Email</label>
+        </div>
+        <div class="form-group">
+            <textarea id="message" placeholder=" " required></textarea>
+            <label for="message">Your Message</label>
+        </div>
+        <button type="submit">Send message</button>
+        <p id="formMessage" class="form-message"></p>
+    </form>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
